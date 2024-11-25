@@ -1,0 +1,14 @@
+
+fib = int(input("number pls: \n")) # the place in the fibonacci order
+if fib == 0 : print (f"this is number {1} in the fib and it is {1}")
+num_1 = 1 #number 1
+
+num_2 = 0 #number 2
+
+
+for z in range (fib+1) : # starting the for loop
+ num_2 , num_1 = num_1 + num_2 , num_2 # will add 1 + 2 in to num 2 
+ print(num_2)
+ print(f"this is number {z} in the fib and it is {num_2}")
+
+
