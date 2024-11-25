@@ -1,0 +1,6 @@
+# avrage 
+
+for i in range(10):
+    Get_num += int(input(f"Please give me number {i} : \n"))
+
+print (f"avrage of the 10 numbers you input are {Get_num/10}")
