@@ -1,0 +1,7 @@
+# do you even / by 3 Bro?
+
+Get_num = int(input("Get me a number : \n"))
+
+for i in range (1,Get_num+1) :
+    if i%3 == 0 : print(i)
+
