@@ -1,0 +1,8 @@
+num= int(input("Give me a Number : \n"))
+i= int(num)
+for z in range (num+1): 
+    for t in range (num) : 
+        print (i , end = "")
+        i -= 1 
+    print()
+    i = num
