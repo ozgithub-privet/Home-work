@@ -1,0 +1,9 @@
+Height= int(input("Give me the height : \n"))
+
+Length = int(input("Give me the length : \n"))
+
+for z in range (Height): 
+    for t in range (Length) : 
+        
+        print ("*", end="")
+    print ()        
