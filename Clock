@@ -1,0 +1,17 @@
+def User (c):
+    return input(c)
+
+def time ():
+
+    a = User("שעות")
+    a1 = User("דקות")
+    a2 = User ("שניות")
+
+    return f"the time is {a} : {a1} : {a2}"
+
+
+Clock = time()
+
+print(Clock)
+
+
